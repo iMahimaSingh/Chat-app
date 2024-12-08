@@ -14,11 +14,26 @@ const App = () => {
     janeSmith: [
       { sender: "janeSmith", text: "Hi! Ready for the meeting?", timestamp: "9:30 AM" },
     ],
+    Mahima: [
+      { sender: "Mahima", text: "Radhe Radhe everyone", timestamp: "5:30 AM" },
+    ],
+    Priya: [
+      { sender: "Priya", text: "Nice to meet you !", timestamp: "19:30 PM" },
+    ],
+    Isha: [
+      { sender: "Isha", text: "Lets meet tomorrow..", timestamp: "11:30 AM" },
+
+    ],
+
   });
 
   const recentChats = [
     { id: "johnDoe", name: "John Doe" },
     { id: "janeSmith", name: "Jane Smith" },
+    { id: "Mahima", name: "Mahima" },
+    { id: "Priya", name: "Priya" },
+    { id: "Isha", name: "Isha" },
+
   ];
 
   const handleSendMessage = () => {
